@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    text-decoration: none;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    color: black;
+    font-size: 40px;
+}
+
+.header__logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link-item {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav__link-item:hover{
+   color: rgb(0, 153, 255);
+}
+
+.link-main {
+    color: #9adb35;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header__main-info img {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.header__main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__info-main {
+    width: 500px;
+    margin: 80px 90px 0px 90px;
+}
+
+.header__name {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.section-divider {
+    text-align: center;
+    background-color: #8a96ff;
+    color: white;
+    padding: 40px;
+}
+
+.section__title {
+    text-align: center;
+    padding: 15px;
+}
+
+.section-divider__row-item {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section-divider__button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-divider__button a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-divider__button a:hover{
+    color: #6472f0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Страница "о школе"*/
+.section-about-school .container {
+    text-align: center;
+
+}
+
+.section-about-school__wrapper {
+    margin-top: 40px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+    border-left: #9adb35 solid 6px;
+    border-right: #9adb35 solid 6px;
+    ;
+}
+
+.section-about-school__title {
+    margin-bottom: 40px;
+}
+
+.section-about-school__main-text {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 100px;
+}
+
+.section-teachers__row img {
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.section-teachers {
+    text-align: center;
+}
+
+.section-teachers h2 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.section-teachers__wrapper-item {
+    background-color: #9adb35;
+    width: 300px;
+    padding: 60px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.section-teachers__row {
+    display: flex;
+    gap: 20px;
+}
+
+.section-teachers__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-teacher {
+    background-color: #8a96ff;
+    color: white;
+}
+
+
+/*Зарегистрироваться*/
+main .signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+form .title {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+main .inputContainer {
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+form input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+main ::placeholder {
+    color: #898b91;
+}
+
+main .submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #8a96ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+main .submitBtn:hover {
+    background-color: #9adb35;
+    transform: translateY(-2px);
+}
+
+main .input:focus+.label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(22, 176, 223);
+}
+
+main .input:focus {
+    border: 2px solid rgb(22, 176, 223);
+}
+
+
+/*Страница "Курсы"*/
+.section-courses__inner-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.section-courses__inner-item {
+    width: 300px;
+    background-color: #8a96ff;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-courses__inner-item p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.section-courses h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.section-courses__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cource__btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.cource__btn {
+    width: 200px;
+    height: 50px;
+    background-color: #9adb35;
+    margin: 20px auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cource__btn:hover{
+    background-color:#9bdb35c4 ;
+}
+
+.price,
+.oldprise {
+    text-align-last: left;
+}
+
+.price {
+    font-weight: 900;
+}
+
+.oldprise {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
